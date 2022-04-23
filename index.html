@@ -1,1 +1,51 @@
-<h1>Ded hasan berdiev</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HUB</title>
+    <style>
+        input{
+            display: block;
+            margin: auto;
+            text-align: center;
+            width:250px;
+            height:35px;
+            margin-top: 10px;
+        }
+        button{
+            display: block;
+            margin: auto;
+            text-align: center;
+            width:260px;
+            height:35px;
+            margin-top: 10px;
+        }
+        .login{
+            margin-top:100px;
+        }
+    </style>
+</head>
+<body>
+    <div class="login">
+
+        <br><br><br><br><br>
+        <input type="text" id="username" autocomplete="off" placeholder="Enter username">
+        <input type="password" id="password" placeholder="Enter password">
+        <button onclick="login()">LOGIN</button>
+    </div>
+</body>
+<script>
+    function login(){
+        var username=document.getElementById('username').value;
+        var password=document.getElementById('password').value;
+        if(password == 'porno' && username == 'admin'){
+            window.location='https://adult.noodlemagazine.com/new-porno';
+        }
+        else{
+            alert("error")
+        }
+    }
+</script>
+</html>
